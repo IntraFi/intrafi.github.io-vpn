@@ -1,4 +1,4 @@
-<!DOCTYPE html><h1>Insert Loading Here!</h1> <div class="hidden"> <form id="validate-callback" action="https://sso-server.mbitsystems.net/api/sso/google/validate" method="get"> <input name="app" value="vpn-service" hidden> <input id="state" name="state" hidden> <input id="code" name="code" hidden> </form> </div> <script>
+<!DOCTYPE html><h1>Insert Loading Here!</h1> <div class="hidden"> <form id="validate-callback" action="https://sso-server.mbitsystems.net/api/sso/google/validate" method="get"> <input id="state" name="state" hidden> <input id="code" name="code" hidden> </form> </div> <script>
   const callbackURI = new URL(window.location)
 
   function validateOAuth() {
