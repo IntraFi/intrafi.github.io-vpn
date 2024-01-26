@@ -13,4 +13,8 @@ Sign in instead
     const turnstileMsg = document.getElementById('turnstile-message')
     turnstileMsg.classList.remove('hidden')
   }
+
+  function cfTurnstileCB(token) {
+    console.log(`Challenge Success ${token}`)
+  }
 </script>
